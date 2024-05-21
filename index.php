@@ -36,14 +36,12 @@
 		<img />
 	</div>
 	<main>
-		<section>
-			<div class="content">
-				<h2>Un lieu</h2>
-				<p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
-			</div>
-			<img src="./public/images/lieu.jpg" alt="Intérieur du restaurant" />
-		</section>
+
 	</main>
 </body>
 
 </html>
+
+<?php
+
+include 'parts/footer.php';

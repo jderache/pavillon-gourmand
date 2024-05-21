@@ -21,9 +21,14 @@
     line-height: 1;
 }
 
-.hero {
-    height: 100vh;
+body {
     background-color: gray;
+    padding: 24px;
+}
+
+.hero {
+    position: relative;
+    height: calc(100vh - 48px);
 }
 
 .hero img {
@@ -64,7 +69,7 @@ header {
 h1 {
     color: white;
     font-size: 1.8rem;
-    font-family: 'La Belle Aurore';
+    font-family: "La Belle Aurore";
 }
 
 .menu {
@@ -73,7 +78,7 @@ h1 {
     list-style: none;
     gap: 12px;
     font-size: 1.2rem;
-    font-family: 'Time New Roman';
+    font-family: "Time New Roman";
 }
 
 .menu-item a {
@@ -117,11 +122,18 @@ section p {
     line-height: 1.6;
 }
 
+footer .distinctions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
 @media screen and (min-width: 475px) {
-    .hero-content p {
+    .hero p {
         font-size: 2.6rem;
-        bottom: 36px;
         width: 400px;
+        padding-bottom: 36px;
     }
 
     .menu {
@@ -131,25 +143,24 @@ section p {
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-content {
+    body {
         padding: 45px 60px;
-        height: 100%;
     }
 
-    .hero-content p {
-        font-size: 3.375rem;
+    .hero {
+        height: calc(100vh - 90px);
+    }
+
+    .hero p {
+        font-size: 3.4rem;
         width: 600px;
-        bottom: 116px;
+        padding-bottom: 72px;
     }
 
     header {
         flex-direction: row;
         justify-content: space-between;
         gap: 24px;
-    }
-
-    h1 {
-        font-size: 2.875rem;
     }
 
     .menu {
