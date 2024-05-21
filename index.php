@@ -19,19 +19,19 @@
 </head>
 
 <body>
-	<header>
-		<h1>Le Pavillon Gourmand</h1>
-		<nav>
-			<ul class="menu">
-				<li><a href="./index.html">Accueil</a></li>
-				<li><a href="./menu.html">Menu</a></li>
-				<li><a href="./contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section class="hero">
-		<p>Restaurant gastronomique végétal & lacustre 3* MICHELIN ANNECY</p>
-	</section>
+	<div class="hero">
+		<header>
+			<h1>Le pavillon gourmand</h1>
+			<nav>
+				<ul class="menu">
+					<li class="menu-item"><a href="./index.html">Un lieu</a></li>
+					<li class="menu-item"><a href="./menu.html">Un moment</a></li>
+					<li class="menu-item"><a href="./contact.html">Nous trouver</a></li>
+				</ul>
+			</nav>
+		</header>
+		<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
+	</div>
 	<main>
 
 	</main>
