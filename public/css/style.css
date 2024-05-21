@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "La Belle Aurore";
+	src: url("/public/fonts/LaBelleAurore.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Changa One";
+	src: url("/public/fonts/ChangaOne.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

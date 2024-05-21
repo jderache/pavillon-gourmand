@@ -7,6 +7,8 @@
 		<meta name="keywords" content="restaurant, gastronomique, paris, cuisine, produits, frais, saison" />
 		<meta name="author" content="Le Pavillon Gourmand" />
 		<link rel="preload" href="/public/css/style.css" as="style" />
+		<link rel="preload" href="/public/fonts/LaBelleAurore.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/public/fonts/ChangaOne.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="stylesheet" href="/public/css/style.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/public/images/favicon/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon/favicon-32x32.png" />
