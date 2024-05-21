@@ -27,6 +27,18 @@
 	line-height: 1;
 }
 
+.bg-green {
+	background-color: var(--green);
+}
+
+.bg-blue {
+	background-color: var(--blue);
+}
+
+.bg-brown {
+	background-color: var(--brown);
+}
+
 .hero {
 	height: 100vh;
 	background-color: gray;
@@ -100,7 +112,8 @@ h1 {
 section {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 	color: white;
 }
 
@@ -110,7 +123,6 @@ section.reverse {
 
 section > div {
 	height: 50%;
-	padding: 24px;
 	flex: 1;
 }
 
@@ -119,11 +131,17 @@ section > img {
 	object-fit: cover;
 }
 
+section .content-image {
+	display: flex;
+	flex-direction: column;
+}
+
 section .content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 16px;
+	padding: 24px;
 }
 
 section h2 {
@@ -156,7 +174,7 @@ footer .footer-bottom {
 	background: black;
 	color: white;
 	font-family: "Arial", sans-serif;
-	min-height: 240px;
+	min-height: 175px;
 	align-items: flex-end;
 }
 
@@ -226,16 +244,20 @@ footer .footer-bottom a {
 		flex-direction: row-reverse;
 	}
 
+	section .content {
+		padding: 60px;
+		height: auto;
+	}
+
 	section > div {
 		width: 50%;
 		height: 100%;
-		padding: 60px;
 		flex: 1;
 	}
 
 	section > img {
 		width: 50%;
-		height: 100%;
+		height: auto;
 	}
 
 	section h2 {

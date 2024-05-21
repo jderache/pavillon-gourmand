@@ -47,7 +47,7 @@
 	</div>
 	<main>
 		<section>
-			<div class=" content" style="background-color: var(--blue);">
+			<div class="content bg-blue">
 				<h2>Un lieu</h2>
 				<p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
 			</div>
@@ -56,7 +56,7 @@
 				./public/images/1400/content1_w1400.webp 1400w" />
 		</section>
 		<section class="reverse">
-			<div class="content" style="background-color: var(--brown);">
+			<div class="content bg-brown">
 				<h2>Un moment</h2>
 				<p>Par le prisme culinaire, entre pudeur et force vitale, le monde du vivant s’exprime jusqu’à la quintessence. Sublimé, il livre son émotion ultime</p>
 			</div>
@@ -65,14 +65,26 @@
 				./public/images/1400/content2_w1400.webp 1400w" />
 		</section>
 		<section>
-			<div class="content" style="background-color: var(--green);">
-				<h2>Nous trouver</h2>
-				<p>Un lieu unique dans un écrin de nature.</p>
-			</div>
+			<div class="content-image">
+                <div class="content bg-green">
+                    <h2>Nous trouver</h2>
+                    <p>Un lieu unique dans un écrin de nature.</p>
+			    </div>
+                <img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w,
+				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
+				./public/images/1400/maps_w1400.webp 1400w" />
+            </div>
 			<img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
 				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
 				./public/images/1400/maps_w1400.webp 1400w" />
 		</section>
+        <section>
+            <div class="content bg-green">
+                <h2>Nous trouver</h2>
+                <p>Un lieu unique dans un écrin de nature.</p>
+            </div>
+            <img src="./public/images/logo.webp" alt="dwadaw">
+        </section>
 	</main>
 </body>
 
