@@ -63,14 +63,19 @@
 				./public/images/1400/content7_w1400.webp 1400w" loading="lazy" alt="" />
         </section>
         <section>
-            <div class="content bg-brown">
-                <h2>Verre du terroir</h2>
-                <p>Explorer un territoire et rendre à la vigne la beauté des racines locales, les cépages d’ici, écho aux flacons d’ailleurs, la pertinence d’une équipe sommelière en totale cohérence</p>
-                <a class="btn" href="./public/pdf/carte-des-vins.pdf" target="_blank" title="La carte des vins (nouvelle fenêtre)">La carte des vins</a>
+            <div class="content-image">
+                <div class="content bg-brown">
+                    <h2>Verre du terroir</h2>
+                    <p>Explorer un territoire et rendre à la vigne la beauté des racines locales, les cépages d’ici, écho aux flacons d’ailleurs, la pertinence d’une équipe sommelière en totale cohérence</p>
+                    <a class="btn" href="./public/pdf/carte-des-vins.pdf" target="_blank" title="La carte des vins (nouvelle fenêtre)">La carte des vins</a>
+                </div>
+                <img src="./public/images/0/content9.webp" srcset="./public/images/576/content9_w576.webp 576w, ./public/images/768/content9_w768.webp 768w,
+                    ./public/images/992/content9_w992.webp 992w, ./public/images/1200/content9_w1200.webp 1200w,
+                    ./public/images/1400/content9_w1400.webp 1400w" loading="lazy" alt="" />
             </div>
-            <img src="./public/images/0/content8.webp" srcset="./public/images/576/content8_w576.webp 576w, ./public/images/768/content8_w768.webp 768w, 
-				./public/images/992/content8_w992.webp 992w, ./public/images/1200/content8_w1200.webp 1200w,
-				./public/images/1400/content8_w1400.webp 1400w" loading="lazy" alt="" />
+            <img src="./public/images/0/content8.webp" srcset="./public/images/576/content8_w576.webp 576w, ./public/images/768/content8_w768.webp 768w,
+                    ./public/images/992/content8_w992.webp 992w, ./public/images/1200/content8_w1200.webp 1200w,
+                    ./public/images/1400/content8_w1400.webp 1400w" loading="lazy" alt="" />
         </section>
     </main>
 </body>
