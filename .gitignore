@@ -1,0 +1,6 @@
+#Faire en sorte de ne pas upload .gitignore
+#Faire en sorte de ne pas upload .git
+#Faire en sorte de ne pas upload /.vscode
+
+/\.git
+/\.vscode
