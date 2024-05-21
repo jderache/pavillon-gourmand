@@ -33,7 +33,6 @@
 			</header>
 			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
 		</div>
-		<img src="./public/images/logo.webp" />
 	</div>
 	<main>
 
