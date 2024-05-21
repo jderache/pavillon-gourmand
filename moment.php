@@ -44,31 +44,29 @@
     </div>
     <main>
         <section>
-            <div class="content bg-blue">
-                <h2>Un lieu</h2>
-                <p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et
-                    cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
+            <div class="content bg-brown">
+                <h2>Âme végétale et lacustre</h2>
+                <p>Reflet d’un garde-manger nourricier, la cuisine, brut et authentique dessine ses lignes dans ses courbes sauvages et charnelles sans contour</p>
+                <a class="btn" href="./public/pdf/menu.pdf" target="_blank" title="Notre menu (nouvelle fenêtre)">Notre menu</a>
             </div>
             <img src="./public/images/0/content1.webp" srcset="./public/images/576/content1_w576.webp 576w, ./public/images/768/content1_w768.webp 768w, 
 				./public/images/992/content1_w992.webp 992w, ./public/images/1200/content1_w1200.webp 1200w,
 				./public/images/1400/content1_w1400.webp 1400w" loading="lazy" alt="" />
         </section>
         <section class="reverse">
-            <div class="content bg-blue">
-                <h2>Le jardin</h2>
-                <p>Inspiration quotidienne, dans son jus, le végétal
-                    s’exprime au gré du temps, dans ses moindres
-                    mouvements, discret ou profus, libre d’être soi.</p>
+            <div class="content bg-brown">
+                <h2>La cueillette</h2>
+                <p>Inspiration quotidienne, dans son jus, le végétal s’exprime au gré du temps, dans ses moindres mouvements, discret ou profus, libre d’être soi.</p>
             </div>
             <img src="./public/images/0/content10.webp" srcset="./public/images/576/content10_w576.webp 576w, ./public/images/768/content10_w768.webp 768w, 
 				./public/images/992/content10_w992.webp 992w, ./public/images/1200/content10_w1200.webp 1200w,
 				./public/images/1400/content10_w1400.webp 1400w" loading="lazy" alt="" />
         </section>
         <section>
-            <div class="content bg-blue">
-                <h2>Esprits engagés</h2>
-                <p>Épouser une identité unique, pousser jusqu’à l’ultime sa passion sensible et émotionnelle, curieuse
-                    et libre d’être.</p>
+            <div class="content bg-brown">
+                <h2>Verre du terroir</h2>
+                <p>Explorer un territoire et rendre à la vigne la beauté des racines locales, les cépages d’ici, écho aux flacons d’ailleurs, la pertinence d’une équipe sommelière en totale cohérence</p>
+                <a class="btn" href="./public/pdf/carte-des-vins.pdf" target="_blank" title="La carte des vins (nouvelle fenêtre)">La carte des vins</a>
             </div>
             <img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
 				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,

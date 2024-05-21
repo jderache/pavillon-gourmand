@@ -15,10 +15,10 @@
 }
 
 :root {
-    --blue: #051528;
     --brown: #251715;
     --green: #142c08;
     --gray: #1E1E1E;
+    --blue: #051528;
 }
 
 * {
@@ -59,6 +59,18 @@
     height: 100%;
 }
 
+a.btn {
+    padding: 1.2rem;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-family: "Arial";
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero-heading {
     display: flex;
     align-items: center;
@@ -96,7 +108,6 @@
     height: 100%;
     object-fit: cover;
 }
-
 
 .hero-img .gradient {
     z-index: 1;
