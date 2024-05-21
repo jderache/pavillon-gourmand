@@ -41,9 +41,11 @@ $random = rand(1, 3);
 			</header>
 			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
 		</div>
-		<img src="./public/images/0/header<?= $random ?>.webp" srcset="./public/images/576/header<?= $random ?>_w576.webp 576w, ./public/images/768/header<?= $random ?>_w768.webp 768w, 
+		<div class="hero-img">
+			<img src="./public/images/0/header<?= $random ?>.webp" srcset="./public/images/576/header<?= $random ?>_w576.webp 576w, ./public/images/768/header<?= $random ?>_w768.webp 768w, 
 				./public/images/992/header<?= $random ?>_w992.webp 992w, ./public/images/1200/header<?= $random ?>_w1200.webp 1200w,
 				./public/images/1400/header<?= $random ?>_w1400.webp 1400w" />
+		</div>
 	</div>
 	<main>
 		<section>

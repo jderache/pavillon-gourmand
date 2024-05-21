@@ -35,9 +35,12 @@
                 </nav>
             </header>
         </div>
-        <img src="./public/images/0/header2.webp" srcset="./public/images/576/header2_w576.webp 576w, ./public/images/768/header2_w768.webp 768w, 
-				./public/images/992/header2_w992.webp 992w, ./public/images/1200/header2_w1200.webp 1200w,
-				./public/images/1400/header2_w1400.webp 1400w" />
+        <div class="hero-img">
+            <div class="gradient brown"></div>
+            <img src="./public/images/0/header2.webp" srcset="./public/images/576/header2_w576.webp 576w, ./public/images/768/header2_w768.webp 768w, 
+                    ./public/images/992/header2_w992.webp 992w, ./public/images/1200/header2_w1200.webp 1200w,
+                    ./public/images/1400/header2_w1400.webp 1400w" />
+        </div>
     </div>
     <main>
         <section>
