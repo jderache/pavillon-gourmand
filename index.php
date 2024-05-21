@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<?php 
+	// Random number entre 1 et 3 
+	$random = rand(1, 3);
+?>
+
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +27,7 @@
 	<div class="hero">
 		<div class="hero-content">
 			<header>
-				<h1>Le pavillon gourmand</h1>
+					<h1>Le pavillon gourmand</h1>
 				<nav>
 					<ul class="menu">
 						<li class="menu-item"><a href="./index.html">Un lieu</a></li>
