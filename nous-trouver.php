@@ -36,7 +36,7 @@
             </header>
         </div>
         <div class="hero-img">
-            <div class="gradient-blue"></div>
+            <div class="gradient"></div>
             <img src="./public/images/0/header3.webp" srcset="./public/images/576/header3_w576.webp 576w, ./public/images/768/header3_w768.webp 768w, 
                     ./public/images/992/header3_w992.webp 992w, ./public/images/1200/header3_w1200.webp 1200w,
                     ./public/images/1400/header3_w1400.webp 1400w" />
