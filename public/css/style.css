@@ -18,6 +18,7 @@
     --blue: #051528;
     --brown: #251715;
     --green: #142c08;
+    --gray: #1E1E1E;
 }
 
 * {
@@ -37,6 +38,14 @@
 
 .bg-brown {
     background-color: var(--brown);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-black {
+    background-color: black;
 }
 
 .hero {
@@ -146,6 +155,12 @@ section {
     color: white;
 }
 
+section.center {
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
 section.reverse {
     flex-direction: column;
 }
@@ -204,11 +219,14 @@ section h2 {
     text-transform: uppercase;
 }
 
-section p {
+section p,
+section a {
     font-size: 1.2rem;
     font-family: "Arial";
     line-height: 1.6;
     font-weight: 200;
+    text-decoration: none;
+    color: white;
 }
 
 footer .distinctions {
@@ -253,7 +271,8 @@ footer .footer-bottom a {
         font-size: 2.6rem;
     }
 
-    section p {
+    section p,
+    section a {
         font-size: 1.4rem;
     }
 }
@@ -330,7 +349,8 @@ footer .footer-bottom a {
         font-size: 3.375rem;
     }
 
-    section p {
+    section p,
+    section a {
         font-size: 1.625rem;
     }
 }

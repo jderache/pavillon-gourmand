@@ -44,35 +44,27 @@
     </div>
     <main>
         <section>
-            <div class="content bg-brown">
-                <h2>Un lieu</h2>
-                <p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et
-                    cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
-            </div>
-            <img src="./public/images/0/content8.webp" srcset="./public/images/576/content8_w576.webp 576w, ./public/images/768/content8_w768.webp 768w, 
-				./public/images/992/content8_w992.webp 992w, ./public/images/1200/content8_w1200.webp 1200w,
-				./public/images/1400/content8_w1400.webp 1400w" loading="lazy" alt="" />
-        </section>
-        <section class="reverse">
-            <div class="content bg-brown">
-                <h2>Le jardin</h2>
-                <p>Inspiration quotidienne, dans son jus, le végétal
-                    s’exprime au gré du temps, dans ses moindres
-                    mouvements, discret ou profus, libre d’être soi.</p>
-            </div>
-            <img src="./public/images/0/content10.webp" srcset="./public/images/576/content10_w576.webp 576w, ./public/images/768/content10_w768.webp 768w, 
-				./public/images/992/content10_w992.webp 992w, ./public/images/1200/content10_w1200.webp 1200w,
-				./public/images/1400/content10_w1400.webp 1400w" loading="lazy" alt="" />
-        </section>
-        <section>
-            <div class="content bg-brown">
-                <h2>Esprits engagés</h2>
-                <p>Épouser une identité unique, pousser jusqu’à l’ultime sa passion sensible et émotionnelle, curieuse
-                    et libre d’être.</p>
+            <div class="content bg-gray">
+                <h2>Accès</h2>
+                <p>13 rue Jean Mermoz <br /> 74940 Annecy-le-Vieux, FRANCE</p>
             </div>
             <img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
 				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
 				./public/images/1400/maps_w1400.webp 1400w" loading="lazy" alt="" />
+        </section>
+        <section class="center">
+            <div class="content bg-black">
+                <h2>Nous contacter</h2>
+                <a href="mailto:contact@pavillion-gourmand.fr">Mail : contact@pavillion-gourmand.fr</a>
+                <a href="tel:+33450230790">Tél. : +33 (0)4 50 23 07 90</a>
+                <h2>Services</h2>
+                <p>Mardi soir</p>
+                <p>Mercredi midi & soir</p>
+                <p>Jeudi midi & soir</p>
+                <p>Vendredi midi & soir</p>
+                <p>Samedi midi & soir</p>
+                <p>Dimanche midi</p>
+            </div>
         </section>
     </main>
 </body>
