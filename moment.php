@@ -22,7 +22,10 @@
     <div class="hero">
         <div class="hero-content">
             <header>
-                <h1>Le pavillon gourmand</h1>
+                <a class="hero-heading" href="./index.php">
+                    <img class="logo" src="./public/images/logo.webp" alt="Le Pavillon Gourmand" width="84" height="61" />
+                    <h1>Le pavillon gourmand</h1>
+                </a>
                 <nav>
                     <ul class="menu">
                         <li class="menu-item"><a href="./lieu.php">Un lieu</a></li>

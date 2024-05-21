@@ -27,10 +27,10 @@ $random = rand(1, 3);
 	<div class="hero">
 		<div class="hero-content">
 			<header>
-				<div class="hero-heading">
+				<a class="hero-heading" href="./index.php">
 					<img class="logo" src="./public/images/logo.webp" alt="Le Pavillon Gourmand" width="84" height="61" />
 					<h1>Le pavillon gourmand</h1>
-				</div>
+				</a>
 				<nav>
 					<ul class="menu">
 						<li class="menu-item"><a href="./lieu.php">Un lieu</a></li>
