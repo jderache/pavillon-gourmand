@@ -1,234 +1,236 @@
 @font-face {
-	font-family: "La Belle Aurore";
-	src: url("../fonts/LaBelleAurore.woff2") format("woff2");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+    font-family: "La Belle Aurore";
+    src: url("../fonts/LaBelleAurore.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-	font-family: "Changa One";
-	src: url("../fonts/ChangaOne.woff2") format("woff2");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+    font-family: "Changa One";
+    src: url("../fonts/ChangaOne.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 :root {
-	--blue: #051528;
-	--brown: #251715;
-	--green: #142c08;
+    --blue: #051528;
+    --brown: #251715;
+    --green: #142c08;
 }
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	line-height: 1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
 
 .hero {
-	height: 100vh;
-	background-color: gray;
+    height: 100vh;
+    background-color: gray;
 }
 
 .hero img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-content {
-	z-index: 1;
-	padding: 24px;
-	position: relative;
-	height: 100%;
+    z-index: 1;
+    padding: 24px;
+    position: relative;
+    height: 100%;
 }
 
 .hero-content p {
-	color: white;
-	font-family: "Changa One", Arial, Helvetica, sans-serif;
-	font-size: 2rem;
-	position: absolute;
-	bottom: 0;
-	text-transform: uppercase;
-	width: 100%;
-	bottom: 36px;
-	width: 80%;
+    color: white;
+    font-family: "Changa One", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    width: 100%;
+    bottom: 36px;
+    width: 80%;
 }
 
 header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 h1 {
-	color: white;
-	font-size: 1.8rem;
-	font-family: "La Belle Aurore";
+    color: white;
+    font-size: 1.8rem;
+    font-family: "La Belle Aurore";
 }
 
 .menu {
-	display: flex;
-	color: white;
-	list-style: none;
-	gap: 12px;
-	font-size: 1.2rem;
-	font-family: "Time New Roman";
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 12px;
+    font-size: 1.2rem;
+    font-family: "Time New Roman";
 }
 
 .menu-item a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 section {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
 }
 
 section.reverse {
-	flex-direction: column;
+    flex-direction: column;
 }
 
-section > div {
-	height: 50%;
-	padding: 24px;
-	flex: 1;
+section>div {
+    height: 50%;
+    padding: 24px;
+    flex: 1;
 }
 
-section > img {
-	height: 50%;
-	object-fit: cover;
+section>img {
+    height: 50%;
+    object-fit: cover;
 }
 
 section .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
 }
 
 section h2 {
-	font-size: 2rem;
-	font-family: "Changa One";
-	text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Changa One";
+    text-transform: uppercase;
 }
 
 section p {
-	font-size: 1.2rem;
-	font-family: "Arial";
-	line-height: 1.6;
-	font-weight: 200;
+    font-size: 1.2rem;
+    font-family: "Arial";
+    line-height: 1.6;
+    font-weight: 200;
 }
+
 footer .distinctions {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 6rem;
-	padding: 45px 60px;
-	background: #1e1e1e;
-	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    padding: 45px 60px;
+    background: #1e1e1e;
+    align-items: center;
 }
 
 footer .footer-bottom {
-	display: flex;
-	justify-content: space-between;
-	padding: 45px 60px;
-	background: black;
-	color: white;
-	font-family: "Arial", sans-serif;
-	min-height: 175px;
-	align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 60px;
+    background: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+    min-height: 175px;
+    align-items: flex-end;
 }
 
 footer .footer-bottom a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 @media screen and (min-width: 475px) {
-	.hero-content p {
-		font-size: 2.6rem;
-		bottom: 36px;
-		width: 400px;
-	}
+    .hero-content p {
+        font-size: 2.6rem;
+        bottom: 36px;
+        width: 400px;
+    }
 
-	.menu {
-		gap: 32px;
-		font-size: 1.4rem;
-	}
+    .menu {
+        gap: 32px;
+        font-size: 1.4rem;
+    }
 
-	section h2 {
-		font-size: 2.6rem;
-	}
+    section h2 {
+        font-size: 2.6rem;
+    }
 
-	section p {
-		font-size: 1.4rem;
-	}
+    section p {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-	.hero-content {
-		padding: 45px 60px;
-		height: 100%;
-	}
+    .hero-content {
+        padding: 45px 60px;
+        height: 100%;
+    }
 
-	.hero-content p {
-		font-size: 3.375rem;
-		width: 600px;
-		bottom: 116px;
-	}
+    .hero-content p {
+        font-size: 3.375rem;
+        width: 600px;
+        bottom: 116px;
+    }
 
-	header {
-		flex-direction: row;
-		justify-content: space-between;
-		gap: 24px;
-	}
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+    }
 
-	h1 {
-		font-size: 2.875rem;
-	}
+    h1 {
+        font-size: 2.875rem;
+    }
 
-	.menu {
-		gap: 56px;
-		font-size: 2.25rem;
-	}
+    .menu {
+        gap: 56px;
+        font-size: 2.25rem;
+    }
 
-	section {
-		display: flex;
-		flex-direction: row;
-	}
+    section {
+        display: flex;
+        flex-direction: row;
+    }
 
-	section.reverse {
-		flex-direction: row-reverse;
-	}
+    section.reverse {
+        flex-direction: row-reverse;
+    }
 
-	section > div {
-		width: 50%;
-		height: 100%;
-		padding: 60px;
-		flex: 1;
-	}
+    section>div {
+        width: 50%;
+        height: 100%;
+        padding: 60px;
+        flex: 1;
+    }
 
-	section > img {
-		width: 50%;
-		height: 100%;
-	}
+    section>img {
+        width: 50%;
+        height: 100%;
+    }
 
-	section h2 {
-		font-size: 3.375rem;
-	}
+    section h2 {
+        font-size: 3.375rem;
+    }
 
-	section p {
-		font-size: 1.625rem;
-	}
+    section p {
+        font-size: 1.625rem;
+    }
 }
