@@ -1,116 +1,122 @@
 @font-face {
-    font-family: "La Belle Aurore";
-    src: url("../fonts/LaBelleAurore.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "La Belle Aurore";
+	src: url("../fonts/LaBelleAurore.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: "Changa One";
-    src: url("../fonts/ChangaOne.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Changa One";
+	src: url("../fonts/ChangaOne.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
 }
 
 body {
-    background-color: gray;
-    padding: 24px;
+	background-color: gray;
+	padding: 24px;
 }
 
 .hero {
-    position: relative;
-    height: calc(100vh - 48px);
+	position: relative;
+	height: calc(100vh - 48px);
 }
 
 .hero p {
-    color: white;
-    font-family: "Changa One", Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    position: absolute;
-    bottom: 0;
-    text-transform: uppercase;
-    width: 100%;
-    padding-bottom: 18px;
+	color: white;
+	font-family: "Changa One", Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	width: 100%;
+	padding-bottom: 18px;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
 }
 
 h1 {
-    color: white;
-    font-size: 1.8rem;
-    font-family: 'La Belle Aurore';
+	color: white;
+	font-size: 1.8rem;
+	font-family: "La Belle Aurore";
 }
 
 .menu {
-    display: flex;
-    color: white;
-    list-style: none;
-    gap: 12px;
-    font-size: 1.2rem;
-    font-family: 'Time New Roman';
+	display: flex;
+	color: white;
+	list-style: none;
+	gap: 12px;
+	font-size: 1.2rem;
+	font-family: "Time New Roman";
 }
 
 .menu-item a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
+footer .distinctions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
 @media screen and (min-width: 475px) {
-    .hero p {
-        font-size: 2.6rem;
-        width: 400px;
-        padding-bottom: 36px;
-    }
+	.hero p {
+		font-size: 2.6rem;
+		width: 400px;
+		padding-bottom: 36px;
+	}
 
-    .menu {
-        gap: 32px;
-        font-size: 1.4rem;
-    }
+	.menu {
+		gap: 32px;
+		font-size: 1.4rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        padding: 45px 60px;
-    }
+	body {
+		padding: 45px 60px;
+	}
 
-    .hero {
-        height: calc(100vh - 90px);
-    }
+	.hero {
+		height: calc(100vh - 90px);
+	}
 
-    .hero p {
-        font-size: 3.4rem;
-        width: 600px;
-        padding-bottom: 72px;
-    }
+	.hero p {
+		font-size: 3.4rem;
+		width: 600px;
+		padding-bottom: 72px;
+	}
 
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 24px;
-    }
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 24px;
+	}
 
-    h1 {
-        font-size: 2.875rem;
-    }
+	h1 {
+		font-size: 2.875rem;
+	}
 
-    .menu {
-        gap: 56px;
-        font-size: 2.4rem;
-    }
+	.menu {
+		gap: 56px;
+		font-size: 2.4rem;
+	}
 }
