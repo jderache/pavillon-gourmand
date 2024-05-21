@@ -72,7 +72,7 @@ $random = rand(1, 3);
 				<h2>Nous trouver</h2>
 				<p>Un lieu unique dans un écrin de nature.</p>
 			</div>
-			<a href="">
+			<a href="https://www.google.fr/maps/place/13+Rue+Jean+Mermoz,+74940+Annecy-le-Vieux/@45.9161113,6.1442034,17z/data=!3m1!4b1!4m6!3m5!1s0x478b8fbdedcb3ecf:0x368a8f59ad0ef7b1!8m2!3d45.9161113!4d6.1467783!16s%2Fg%2F11c5pl8nd8?entry=ttu" target="_blank" title="Ouverture Google Maps (nouvelle fenêtre)">
 				<img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
 					./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
 					./public/images/1400/maps_w1400.webp 1400w" loading="lazy" alt="" />
