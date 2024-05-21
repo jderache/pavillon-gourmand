@@ -39,7 +39,6 @@
 					</ul>
 				</nav>
 			</header>
-			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
 		</div>
 		<img src="./public/images/0/header<?=$random?>.webp" srcset="./public/images/576/header<?=$random?>_w576.webp 576w, ./public/images/768/header<?=$random?>_w768.webp 768w, 
 				./public/images/992/header<?=$random?>_w992.webp 992w, ./public/images/1200/header<?=$random?>_w1200.webp 1200w,
@@ -57,17 +56,17 @@
 		</section>
 		<section class="reverse">
 			<div class="content" style="background-color: var(--brown);">
-				<h2>Un moment</h2>
-				<p>Par le prisme culinaire, entre pudeur et force vitale, le monde du vivant s’exprime jusqu’à la quintessence. Sublimé, il livre son émotion ultime</p>
+				<h2>Le jardin</h2>
+				<p>Inspiration quotidienne, dans son jus, le végétal s’exprime au gré du temps, dans ses moindres mouvements, discret ou profus, libre d’être soi.</p>
 			</div>
-			<img src="./public/images/0/content2.webp" srcset="./public/images/576/content2_w576.webp 576w, ./public/images/768/content2_w768.webp 768w, 
-				./public/images/992/content2_w992.webp 992w, ./public/images/1200/content2_w1200.webp 1200w,
-				./public/images/1400/content2_w1400.webp 1400w" />
+			<img src="./public/images/0/content10.webp" srcset="./public/images/576/content10_w576.webp 576w, ./public/images/768/content10_w768.webp 768w, 
+				./public/images/992/content10_w992.webp 992w, ./public/images/1200/content10_w1200.webp 1200w,
+				./public/images/1400/content10_w1400.webp 1400w" />
 		</section>
 		<section>
 			<div class="content" style="background-color: var(--green);">
-				<h2>Nous trouver</h2>
-				<p>Un lieu unique dans un écrin de nature.</p>
+				<h2>Esprits engagés</h2>
+				<p>Épouser une identité unique, pousser jusqu’à l’ultime sa passion sensible et émotionnelle, curieuse et libre d’être.</p>
 			</div>
 			<img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
 				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
