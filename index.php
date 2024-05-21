@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,17 +20,20 @@
 
 <body>
 	<div class="hero">
-		<header>
-			<h1>Le pavillon gourmand</h1>
-			<nav>
-				<ul class="menu">
-					<li class="menu-item"><a href="./index.html">Un lieu</a></li>
-					<li class="menu-item"><a href="./menu.html">Un moment</a></li>
-					<li class="menu-item"><a href="./contact.html">Nous trouver</a></li>
-				</ul>
-			</nav>
-		</header>
-		<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
+		<div class="hero-content">
+			<header>
+				<h1>Le pavillon gourmand</h1>
+				<nav>
+					<ul class="menu">
+						<li class="menu-item"><a href="./index.html">Un lieu</a></li>
+						<li class="menu-item"><a href="./menu.html">Un moment</a></li>
+						<li class="menu-item"><a href="./contact.html">Nous trouver</a></li>
+					</ul>
+				</nav>
+			</header>
+			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
+		</div>
+		<img />
 	</div>
 	<main>
 
@@ -38,6 +42,6 @@
 
 </html>
 
-<?php 
+<?php
 
 include 'parts/footer.php';
