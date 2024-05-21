@@ -66,6 +66,7 @@
 	position: relative;
 	gap: 1rem;
 	flex-direction: column;
+	text-decoration: none;
 }
 
 .hero-content p {
@@ -78,6 +79,7 @@
 	width: 100%;
 	bottom: 36px;
 	width: 80%;
+	line-height: 1.2;
 }
 
 header {
@@ -134,7 +136,17 @@ section > img {
 	height: 50%;
 	object-fit: cover;
 }
+section > a > img {
+	width: 100%;
+	object-fit: cover;
+	height: auto;
+}
 
+section div.content + a {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
 section .content-image {
 	display: flex;
 	flex-direction: column;
@@ -264,8 +276,17 @@ footer .footer-bottom a {
 		width: 50%;
 		height: auto;
 	}
+	section div.content + a {
+		display: flex;
+		width: 50%;
+		height: auto;
+	}
+	section > a > img {
+		width: 100%;
+		height: auto;
+	}
 
-	section h2 {
+	section > a section h2 {
 		font-size: 3.375rem;
 	}
 

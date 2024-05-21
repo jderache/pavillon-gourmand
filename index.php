@@ -27,10 +27,10 @@ $random = rand(1, 3);
 	<div class="hero">
 		<div class="hero-content">
 			<header>
-				<div class="hero-heading">
+				<a class="hero-heading" href="./index.php">
 					<img class="logo" src="./public/images/logo.webp" alt="Le Pavillon Gourmand" width="84" height="61" />
 					<h1>Le pavillon gourmand</h1>
-				</div>
+				</a>
 				<nav>
 					<ul class="menu">
 						<li class="menu-item"><a href="./lieu.php">Un lieu</a></li>
@@ -69,9 +69,11 @@ $random = rand(1, 3);
 				<h2>Nous trouver</h2>
 				<p>Un lieu unique dans un écrin de nature.</p>
 			</div>
-			<img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
-				./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
-				./public/images/1400/maps_w1400.webp 1400w" loading="lazy" alt="" />
+			<a href="">
+				<img src="./public/images/0/maps.webp" srcset="./public/images/576/maps_w576.webp 576w, ./public/images/768/maps_w768.webp 768w, 
+					./public/images/992/maps_w992.webp 992w, ./public/images/1200/maps_w1200.webp 1200w,
+					./public/images/1400/maps_w1400.webp 1400w" loading="lazy" alt="" />
+			</a>
 		</section>
 	</main>
 </body>

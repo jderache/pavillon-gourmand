@@ -15,14 +15,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./public/images/favicon/favicon-16x16.png" />
     <link rel="manifest" href="./public/images/favicon/site.webmanifest" />
-    <title>Le Pavillon Gourmand - Nous trouver</title>
+    <title>Nous trouver - Le Pavillon Gourmand</title>
 </head>
 
 <body>
     <div class="hero">
         <div class="hero-content">
             <header>
-                <h1>Le pavillon gourmand</h1>
+                <a class="hero-heading" href="./index.php">
+                    <img class="logo" src="./public/images/logo.webp" alt="Le Pavillon Gourmand" width="84" height="61" />
+                    <h1>Le pavillon gourmand</h1>
+                </a>
                 <nav>
                     <ul class="menu">
                         <li class="menu-item"><a href="./lieu.php">Un lieu</a></li>
