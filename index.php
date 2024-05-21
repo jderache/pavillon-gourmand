@@ -20,20 +20,28 @@
 
 <body>
 	<div class="hero">
-		<header>
-			<h1>Le pavillon gourmand</h1>
-			<nav>
-				<ul class="menu">
-					<li class="menu-item"><a href="./index.html">Un lieu</a></li>
-					<li class="menu-item"><a href="./menu.html">Un moment</a></li>
-					<li class="menu-item"><a href="./contact.html">Nous trouver</a></li>
-				</ul>
-			</nav>
-		</header>
-		<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
+		<div class="hero-content">
+			<header>
+				<h1>Le pavillon gourmand</h1>
+				<nav>
+					<ul class="menu">
+						<li class="menu-item"><a href="./index.html">Un lieu</a></li>
+						<li class="menu-item"><a href="./menu.html">Un moment</a></li>
+						<li class="menu-item"><a href="./contact.html">Nous trouver</a></li>
+					</ul>
+				</nav>
+			</header>
+			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
+		</div>
 	</div>
 	<main>
-
+		<section>
+			<div class="content">
+				<h2>Un lieu</h2>
+				<p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
+			</div>
+			<img src="./public/images/lieu.jpg" alt="Intérieur du restaurant" />
+		</section>
 	</main>
 </body>
 
