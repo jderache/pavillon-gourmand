@@ -75,9 +75,11 @@
 				./public/images/992/content12_w992.webp 992w, ./public/images/1200/content12_w1200.webp 1200w,
 				./public/images/1400/content12_w1400.webp 1400w" loading="lazy" alt="" />
             </div>
+            <a href="https://www.youtube.com/watch?v=uceaJ__FZg4" title="Découvrir notre équipe" target="_blank">
             <img src="./public/images/0/content11.webp" srcset="./public/images/576/content11_w576.webp 576w, ./public/images/768/content11_w768.webp 768w, 
 				./public/images/992/content11_w992.webp 992w, ./public/images/1200/content11_w1200.webp 1200w,
 				./public/images/1400/content11_w1400.webp 1400w" loading="lazy" alt="" />
+            </a>
         </section>
     </main>
 </body>
