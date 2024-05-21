@@ -33,9 +33,30 @@
 			</header>
 			<p>Restaurant gastronomique végétal & lacustre <br /> 3* MICHELIN ANNECY</p>
 		</div>
+		<img />
 	</div>
 	<main>
-
+		<section>
+			<div class="content" style="background-color: var(--blue);">
+				<h2>Un lieu</h2>
+				<p>Univers singulier, identitaire et façonné par l’homme. Essences de bois brulé, pierre de Savoie et cristal taillé, la salle, apaisante et épurée, accueille l’authentique transparence réconfort</p>
+			</div>
+			<img src="./public/images/logo.webp" alt="dwadaw">
+		</section>
+		<section class="reverse">
+			<div class="content" style="background-color: var(--brown);">
+				<h2>Un moment</h2>
+				<p>Par le prisme culinaire, entre pudeur et force vitale, le monde du vivant s’exprime jusqu’à la quintessence. Sublimé, il livre son émotion ultime</p>
+			</div>
+			<img src="./public/images/logo.webp" alt="dwadaw">
+		</section>
+		<section>
+			<div class="content" style="background-color: var(--green);">
+				<h2>Nous trouver</h2>
+				<p>Un lieu unique dans un écrin de nature.</p>
+			</div>
+			<img src="./public/images/logo.webp" alt="dwadaw">
+		</section>
 	</main>
 </body>
 

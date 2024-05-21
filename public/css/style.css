@@ -14,6 +14,12 @@
 	font-display: swap;
 }
 
+:root {
+	--blue: #051528;
+	--brown: #251715;
+	--green: #142c08;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -39,7 +45,7 @@
 	z-index: 1;
 	padding: 24px;
 	position: relative;
-	height: calc(100vh - 48px);
+	height: 100%;
 }
 
 .hero-content p {
@@ -85,17 +91,23 @@ h1 {
 
 section {
 	display: flex;
+	flex-direction: column;
 	height: 100vh;
+	color: white;
+}
+
+section.reverse {
+	flex-direction: column;
 }
 
 section > div {
-	width: 50%;
-	padding: 60px;
+	height: 50%;
+	padding: 24px;
 	flex: 1;
 }
 
 section > img {
-	width: 50%;
+	height: 50%;
 	object-fit: cover;
 }
 
@@ -107,17 +119,17 @@ section .content {
 }
 
 section h2 {
-	font-size: 3.375rem;
+	font-size: 2rem;
 	font-family: "Changa One";
 	text-transform: uppercase;
 }
 
 section p {
-	font-size: 1.625rem;
+	font-size: 1.2rem;
 	font-family: "Arial";
 	line-height: 1.6;
+	font-weight: 200;
 }
-
 footer .distinctions {
 	display: flex;
 	flex-wrap: wrap;
@@ -143,7 +155,6 @@ footer .footer-bottom a {
 	color: white;
 	text-decoration: none;
 }
-
 @media screen and (min-width: 475px) {
 	.hero-content p {
 		font-size: 2.6rem;
@@ -153,6 +164,14 @@ footer .footer-bottom a {
 
 	.menu {
 		gap: 32px;
+		font-size: 1.4rem;
+	}
+
+	section h2 {
+		font-size: 2.6rem;
+	}
+
+	section p {
 		font-size: 1.4rem;
 	}
 }
@@ -189,6 +208,10 @@ footer .footer-bottom a {
 		flex-direction: row;
 	}
 
+	section.reverse {
+		flex-direction: row-reverse;
+	}
+
 	section > div {
 		width: 50%;
 		height: 100%;
@@ -197,6 +220,7 @@ footer .footer-bottom a {
 	}
 
 	section > img {
+		width: 50%;
 		height: 100%;
 	}
 
