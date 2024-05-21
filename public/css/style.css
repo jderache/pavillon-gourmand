@@ -232,16 +232,20 @@ footer .footer-bottom a {
         flex-direction: row-reverse;
     }
 
+    section .content {
+        padding: 60px;
+        height: auto;
+    }
+
     section>div {
         width: 50%;
         height: 100%;
-        padding: 60px;
         flex: 1;
     }
 
     section>img {
         width: 50%;
-        height: 100%;
+        height: auto;
     }
 
     section h2 {
